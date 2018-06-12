@@ -9,7 +9,7 @@ wget --no-check-certificate -qO 'BBR.sh' 'https://moeclub.org/attachment/LinuxSh
 
 安装魔改版BBR
 
-wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://moeclub.org/attachment/LinuxShell/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
+wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://raw.githubusercontent.com/hotplmm/bbr-onekey/master/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
 
 完成之后执行下面的命令检查是否安装成功
 
