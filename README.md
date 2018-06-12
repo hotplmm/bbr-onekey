@@ -25,4 +25,4 @@ bash <(curl -s -L https://raw.githubusercontent.com/hotplmm/bbr-onekey/master/bb
 
 bash <(curl -s -L https://raw.githubusercontent.com/hotplmm/bbr-onekey/master/bbr-on.sh)
 
-新人试手之作！脚本来自网络，作者不详！本人稍作修改，只为方便查找备案参考！
+来自网络 Vicer 大佬的脚本！新人试手只为方便查找备案参考而坐！
