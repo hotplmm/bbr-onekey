@@ -1,7 +1,7 @@
 # BBR-onekey
 仅适用于Debian/Ubuntu系统。
 
-开启 BBR（更新新版内核并开启BBR）
+开启 BBR（更新新版内核并开启原版BBR）
 
 执行下面脚本一键开启
 
