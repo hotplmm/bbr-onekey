@@ -5,7 +5,7 @@
 
 执行下面脚本一键开启
 
-wget --no-check-certificate -qO 'BBR.sh' 'https://moeclub.org/attachment/LinuxShell/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
+wget --no-check-certificate -qO 'BBR.sh' 'https://raw.githubusercontent.com/hotplmm/bbr-onekey/master/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
 
 安装魔改版BBR
 
