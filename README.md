@@ -17,4 +17,22 @@ lsmod |grep 'bbr_powered'
 
 如果结果有 bbr_powered 则说明加载成功！
 
+关闭魔改版BBR
+
+sed -i '/net.core.default_qdisc.*/d' /etc/sysctl.conf
+sed -i '/net.ipv4.tcp_congestion_control.*/d' /etc/sysctl.conf
+echo "#net.core.default_qdisc=fq" >>/etc/sysctl.conf
+echo "#net.ipv4.tcp_congestion_control=bbr_powered" >>/etc/sysctl.conf
+
+重启  reboot
+
+如果需要重新开启魔改版BBR，输入下面指令
+
+sed -i '/net.core.default_qdisc.*/d' /etc/sysctl.conf
+sed -i '/net.ipv4.tcp_congestion_control.*/d' /etc/sysctl.conf
+echo "net.core.default_qdisc=fq" >>/etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr_powered" >>/etc/sysctl.conf
+
+重启  reboot
+
 新人试手之作！脚本来自网络，作者不详！只位方便查找备案参考！
