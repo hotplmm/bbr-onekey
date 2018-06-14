@@ -1,5 +1,5 @@
 # BBR-onekey
-仅适用于Debian/Ubuntu系统。
+新手最好采用Debian9+/Ubuntu14+系统。(太低的版本要手动升级gcc，好麻烦的！）
 
 BBR.sh（更新新版内核并开启原版BBR）
 
