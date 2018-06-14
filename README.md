@@ -16,11 +16,9 @@ bash <(curl -s -L https://raw.githubusercontent.com/hotplmm/bbr-onekey/master/-B
 
 wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://raw.githubusercontent.com/hotplmm/bbr-onekey/master/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh
 
-5， 完成之后执行下面的命令检查是否安装成功：
+5， 完成之后执行下面的命令检查是否安装成功，如果结果有 bbr_powered 则说明加载成功！
 
 lsmod |grep 'bbr_powered'
-
-如果结果有 bbr_powered 则说明加载成功！
 
 6， 关闭魔改版BBR
 
